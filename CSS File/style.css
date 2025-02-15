@@ -6,7 +6,7 @@
 
 body {
     font-family: "Lato", serif;
-    font-size: clamp(20px, 6vw, 35px);
+
 }
 
 .box {
@@ -23,7 +23,7 @@ body {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
 
-    input {
+    .results {
         padding: 5px;
         text-align: right;
         grid-column: 1 / 5;
@@ -31,6 +31,7 @@ body {
         border: 1px solid #cccccc;
         line-height: 2;
         font-size: clamp(20px, 6vw, 40px);
+        text-align: right !important;
     }
 
     span {
@@ -38,6 +39,9 @@ body {
         border: 1px solid #cccccc;
         text-align: center;
         line-height: 1.5;
+        font-size: clamp(20px, 6vw, 35px);
         cursor: pointer;
     }
+
+
 }
