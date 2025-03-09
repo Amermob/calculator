@@ -7,3 +7,6 @@ function callMe(e) {
 function calculate() {
   screen.value = eval(screen.value);
 }
+
+let sound = new Audio();
+sound.src = "../audio/click.mp3";
